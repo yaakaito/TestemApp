@@ -13,9 +13,6 @@
 		B906CA7D1719453B00110590 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B906CA7B1719453B00110590 /* InfoPlist.strings */; };
 		B906CA7F1719453B00110590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CA7E1719453B00110590 /* main.m */; };
 		B906CA831719453B00110590 /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CA821719453B00110590 /* TMAppDelegate.m */; };
-		B906CA851719453B00110590 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B906CA841719453B00110590 /* Default.png */; };
-		B906CA871719453B00110590 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B906CA861719453B00110590 /* Default@2x.png */; };
-		B906CA891719453B00110590 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B906CA881719453B00110590 /* Default-568h@2x.png */; };
 		B906CA8C1719453B00110590 /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CA8B1719453B00110590 /* TMViewController.m */; };
 		B906CA9A1719453B00110590 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B906CA991719453B00110590 /* SenTestingKit.framework */; };
 		B906CA9B1719453B00110590 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B906CA721719453B00110590 /* UIKit.framework */; };
@@ -45,9 +42,6 @@
 		B906CA801719453B00110590 /* TestemApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestemApp-Prefix.pch"; sourceTree = "<group>"; };
 		B906CA811719453B00110590 /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
 		B906CA821719453B00110590 /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
-		B906CA841719453B00110590 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B906CA861719453B00110590 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B906CA881719453B00110590 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B906CA8A1719453B00110590 /* TMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
 		B906CA8B1719453B00110590 /* TMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
 		B906CA981719453B00110590 /* TestemAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestemAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,9 +125,6 @@
 				B906CA7B1719453B00110590 /* InfoPlist.strings */,
 				B906CA7E1719453B00110590 /* main.m */,
 				B906CA801719453B00110590 /* TestemApp-Prefix.pch */,
-				B906CA841719453B00110590 /* Default.png */,
-				B906CA861719453B00110590 /* Default@2x.png */,
-				B906CA881719453B00110590 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,9 +221,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B906CA7D1719453B00110590 /* InfoPlist.strings in Resources */,
-				B906CA851719453B00110590 /* Default.png in Resources */,
-				B906CA871719453B00110590 /* Default@2x.png in Resources */,
-				B906CA891719453B00110590 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
