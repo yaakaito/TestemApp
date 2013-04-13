@@ -9,7 +9,7 @@
 #import "TMViewController.h"
 
 @interface TMViewController ()
-
+@property (nonatomic, strong) UIWebView *testemView;
 @end
 
 @implementation TMViewController
@@ -17,13 +17,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.testemView = [[UIWebView alloc] init];
+    [self.view addSubview:self.testemView];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    self.testemView.frame = self.view.bounds;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
