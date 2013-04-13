@@ -9,6 +9,7 @@
 #import "TMAppDelegate.h"
 
 #import "TMViewController.h"
+#import "TMURLLoader.h"
 
 @implementation TMAppDelegate
 
@@ -16,6 +17,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[TMViewController alloc] init];
+    self.viewController.testemUrl = [TMURLLoader testemURL];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

@@ -19,6 +19,8 @@
 		B906CA9C1719453B00110590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B906CA741719453B00110590 /* Foundation.framework */; };
 		B906CAA41719453B00110590 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B906CAA21719453B00110590 /* InfoPlist.strings */; };
 		B906CAA71719453B00110590 /* TestemAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CAA61719453B00110590 /* TestemAppTests.m */; };
+		B906CAB217194A5700110590 /* TMURLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CAB117194A5700110590 /* TMURLLoader.m */; };
+		B906CAB317194A5700110590 /* TMURLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CAB117194A5700110590 /* TMURLLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		B906CAA31719453B00110590 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B906CAA51719453B00110590 /* TestemAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestemAppTests.h; sourceTree = "<group>"; };
 		B906CAA61719453B00110590 /* TestemAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestemAppTests.m; sourceTree = "<group>"; };
+		B906CAB017194A5700110590 /* TMURLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMURLLoader.h; sourceTree = "<group>"; };
+		B906CAB117194A5700110590 /* TMURLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMURLLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				B906CA8A1719453B00110590 /* TMViewController.h */,
 				B906CA8B1719453B00110590 /* TMViewController.m */,
 				B906CA791719453B00110590 /* Supporting Files */,
+				B906CAB017194A5700110590 /* TMURLLoader.h */,
+				B906CAB117194A5700110590 /* TMURLLoader.m */,
 			);
 			path = TestemApp;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 				B906CA7F1719453B00110590 /* main.m in Sources */,
 				B906CA831719453B00110590 /* TMAppDelegate.m in Sources */,
 				B906CA8C1719453B00110590 /* TMViewController.m in Sources */,
+				B906CAB217194A5700110590 /* TMURLLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B906CAA71719453B00110590 /* TestemAppTests.m in Sources */,
+				B906CAB317194A5700110590 /* TMURLLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
