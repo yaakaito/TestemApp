@@ -9,4 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TMViewController : UIViewController
+@property (nonatomic, strong) NSURL *testemUrl;
 @end
