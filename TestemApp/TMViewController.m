@@ -20,6 +20,8 @@
         return nil;
     }
     
+    NSDictionary *new = [NSDictionary dictionaryWithObject:@"TestemiOSApp" forKey:@"UserAgent"];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:new];
     self.testemView = [[UIWebView alloc] init];
 
     return self;
