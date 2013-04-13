@@ -19,6 +19,14 @@
     [super viewDidLoad];
 	self.testemView = [[UIWebView alloc] init];
     [self.view addSubview:self.testemView];
+    
+    UILabel *testemChip = [[UILabel alloc] init];
+    [testemChip setText:@"Testem App"];
+    [testemChip setTextColor:[UIColor whiteColor]];
+    [testemChip setTextAlignment:NSTextAlignmentCenter];
+    [testemChip setBackgroundColor:[UIColor colorWithWhite:0.2 alpha:0.5]];
+    [testemChip setFrame:CGRectMake(0, 0, 320, 44)];
+    [self.view addSubview:testemChip];
 }
 
 - (void)viewDidAppear:(BOOL)animated
