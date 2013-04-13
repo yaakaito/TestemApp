@@ -17,6 +17,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[TMViewController alloc] init];
+    // [[UIApplication sharedApplication] openURL:[TMURLLoader testemURL]];
     self.viewController.testemUrl = [TMURLLoader testemURL];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

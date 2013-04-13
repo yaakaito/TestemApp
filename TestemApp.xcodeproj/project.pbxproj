@@ -21,6 +21,8 @@
 		B906CAA71719453B00110590 /* TestemAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CAA61719453B00110590 /* TestemAppTests.m */; };
 		B906CAB217194A5700110590 /* TMURLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CAB117194A5700110590 /* TMURLLoader.m */; };
 		B906CAB317194A5700110590 /* TMURLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CAB117194A5700110590 /* TMURLLoader.m */; };
+		B906CAB51719A0C700110590 /* testem_app.json in Resources */ = {isa = PBXBuildFile; fileRef = B906CAB41719A0C700110590 /* testem_app.json */; };
+		B906CAB61719A0C700110590 /* testem_app.json in Resources */ = {isa = PBXBuildFile; fileRef = B906CAB41719A0C700110590 /* testem_app.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 		B906CAA61719453B00110590 /* TestemAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestemAppTests.m; sourceTree = "<group>"; };
 		B906CAB017194A5700110590 /* TMURLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMURLLoader.h; sourceTree = "<group>"; };
 		B906CAB117194A5700110590 /* TMURLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMURLLoader.m; sourceTree = "<group>"; };
+		B906CAB41719A0C700110590 /* testem_app.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testem_app.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 				B906CA791719453B00110590 /* Supporting Files */,
 				B906CAB017194A5700110590 /* TMURLLoader.h */,
 				B906CAB117194A5700110590 /* TMURLLoader.m */,
+				B906CAB41719A0C700110590 /* testem_app.json */,
 			);
 			path = TestemApp;
 			sourceTree = "<group>";
@@ -227,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B906CA7D1719453B00110590 /* InfoPlist.strings in Resources */,
+				B906CAB51719A0C700110590 /* testem_app.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B906CAA41719453B00110590 /* InfoPlist.strings in Resources */,
+				B906CAB61719A0C700110590 /* testem_app.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
